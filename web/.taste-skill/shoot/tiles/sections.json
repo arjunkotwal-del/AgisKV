@@ -1,0 +1,310 @@
+{
+ "url": "http://127.0.0.1:5300/index.html",
+ "views": {
+  "desktop": {
+   "width": 1440,
+   "height": 900,
+   "navH": 72,
+   "scrollHeight": 8100,
+   "screens": 9,
+   "sections": [
+    {
+     "n": 1,
+     "tag": "section",
+     "id": "top",
+     "cls": "hero hero--product is-still is-entered",
+     "top": 0,
+     "h": 900,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-01-a.jpg",
+       "scrollY": 0
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "tag": "section",
+     "id": "features",
+     "cls": "section g2 g2m bg-mist",
+     "top": 900,
+     "h": 1800,
+     "hScreens": 2,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-02-a.jpg",
+       "scrollY": 900
+      },
+      {
+       "file": "desktop-sec-02-b.jpg",
+       "scrollY": 1800
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "tag": "section",
+     "id": "architecture",
+     "cls": "section",
+     "top": 2700,
+     "h": 900,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-03-a.jpg",
+       "scrollY": 2700
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "tag": "section",
+     "id": "benchmarks",
+     "cls": "section ground-inverse mo-io is-done",
+     "top": 3600,
+     "h": 900,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-04-a.jpg",
+       "scrollY": 3600
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "tag": "section",
+     "id": "sandbox",
+     "cls": "section",
+     "top": 4500,
+     "h": 900,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-05-a.jpg",
+       "scrollY": 4500
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "tag": "section",
+     "id": "integrations",
+     "cls": "section ground-surface",
+     "top": 5400,
+     "h": 900,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-06-a.jpg",
+       "scrollY": 5400
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "tag": "section",
+     "id": "faq",
+     "cls": "section",
+     "top": 6300,
+     "h": 900,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-07-a.jpg",
+       "scrollY": 6300
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "tag": "footer",
+     "id": "contact",
+     "cls": "footer closing footer--dark ground-surface",
+     "top": 7200,
+     "h": 900,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "desktop-sec-08-a.jpg",
+       "scrollY": 7200
+      }
+     ]
+    }
+   ],
+   "consoleErrors": []
+  },
+  "mobile": {
+   "width": 390,
+   "height": 844,
+   "navH": 56,
+   "scrollHeight": 7951,
+   "screens": 9.42,
+   "sections": [
+    {
+     "n": 1,
+     "tag": "section",
+     "id": "top",
+     "cls": "hero hero--product is-still is-entered",
+     "top": 0,
+     "h": 844,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "mobile-sec-01-a.jpg",
+       "scrollY": 0
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "tag": "section",
+     "id": "features",
+     "cls": "section g2 g2m bg-mist",
+     "top": 844,
+     "h": 1688,
+     "hScreens": 2,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "mobile-sec-02-a.jpg",
+       "scrollY": 844
+      },
+      {
+       "file": "mobile-sec-02-b.jpg",
+       "scrollY": 1688
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "tag": "section",
+     "id": "architecture",
+     "cls": "section",
+     "top": 2532,
+     "h": 876,
+     "hScreens": 1.04,
+     "offGrid": 32,
+     "tiles": [
+      {
+       "file": "mobile-sec-03-a.jpg",
+       "scrollY": 2532
+      },
+      {
+       "file": "mobile-sec-03-b.jpg",
+       "scrollY": 2564
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "tag": "section",
+     "id": "benchmarks",
+     "cls": "section ground-inverse mo-io is-done",
+     "top": 3408,
+     "h": 844,
+     "hScreens": 1,
+     "offGrid": 0,
+     "tiles": [
+      {
+       "file": "mobile-sec-04-a.jpg",
+       "scrollY": 3408
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "tag": "section",
+     "id": "sandbox",
+     "cls": "section",
+     "top": 4252,
+     "h": 863,
+     "hScreens": 1.02,
+     "offGrid": 19,
+     "tiles": [
+      {
+       "file": "mobile-sec-05-a.jpg",
+       "scrollY": 4252
+      },
+      {
+       "file": "mobile-sec-05-b.jpg",
+       "scrollY": 4271
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "tag": "section",
+     "id": "integrations",
+     "cls": "section ground-surface",
+     "top": 5115,
+     "h": 895,
+     "hScreens": 1.06,
+     "offGrid": 51,
+     "tiles": [
+      {
+       "file": "mobile-sec-06-a.jpg",
+       "scrollY": 5115
+      },
+      {
+       "file": "mobile-sec-06-b.jpg",
+       "scrollY": 5166
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "tag": "section",
+     "id": "faq",
+     "cls": "section",
+     "top": 6010,
+     "h": 1016,
+     "hScreens": 1.2,
+     "offGrid": 172,
+     "tiles": [
+      {
+       "file": "mobile-sec-07-a.jpg",
+       "scrollY": 6010
+      },
+      {
+       "file": "mobile-sec-07-b.jpg",
+       "scrollY": 6182
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "tag": "footer",
+     "id": "contact",
+     "cls": "footer closing footer--dark ground-surface",
+     "top": 7025,
+     "h": 926,
+     "hScreens": 1.1,
+     "offGrid": 82,
+     "tiles": [
+      {
+       "file": "mobile-sec-08-a.jpg",
+       "scrollY": 7025
+      },
+      {
+       "file": "mobile-sec-08-b.jpg",
+       "scrollY": 7107
+      }
+     ]
+    }
+   ],
+   "consoleErrors": []
+  }
+ },
+ "at": "2026-11-13T18:05:37.541Z"
+}

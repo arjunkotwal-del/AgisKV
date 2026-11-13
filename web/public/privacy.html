@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-type="software" data-radius="soft" data-ground="sky" data-buttons="pill">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="page-type" content="software">
+  <meta name="site-kind" content="software">
+  <title>Privacy Policy — AegisKV</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/system.css">
+  <style>
+    :root {
+      --p-bg: #0d060b; --p-surface: #1b0e17; --p-ink: #ffffff; --p-muted: #9a8f97;
+      --p-accent: #ff488b; --p-accent-ink: #0d060b; --p-action: #ff488b; --p-action-ink: #0d060b;
+      --p-inv-bg: #ffffff; --p-inv-surface: #ebebeb; --p-inv-ink: #0d060b; --p-inv-muted: #5e575c;
+      --p-inv-accent: #ff488b; --p-inv-accent-ink: #0d060b; --p-inv-action: #ff488b; --p-inv-action-ink: #0d060b;
+      --font-display: "Manrope", system-ui, sans-serif;
+      --font-text: "Manrope", system-ui, sans-serif;
+    }
+  </style>
+</head>
+<body class="ground-base">
+  <main class="section">
+    <div class="wrap">
+      <p><a class="btn btn--ghost" href="./">Back to AegisKV</a></p>
+      <h1 style="margin-top:24px;">Privacy policy</h1>
+      <p class="lead">AegisKV runs locally by default. Prompts entered into the gateway sandbox are processed inside your local C++20 and FastAPI runtime.</p>
+      <p>Detected payment card numbers verified with Luhn mod-10, high-entropy API keys, and email addresses are redacted inside memory before any upstream model request or SQLite WAL trace write occurs. No third-party telemetry is collected unless upstream cloud credentials are explicitly configured via environment variables.</p>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "vector_dim": 256,
+  "num_queries": 250,
+  "scaling": [
+    {"entries": 500, "insert_total_ms": 45.01, "hnsw_p50_us": 35.20, "hnsw_p95_us": 37.60, "hnsw_p99_us": 47.60, "brute_p50_us": 24.90, "brute_p95_us": 26.40, "speedup": 0.71, "recall_at_1_pct": 100.00},
+    {"entries": 2000, "insert_total_ms": 282.96, "hnsw_p50_us": 63.40, "hnsw_p95_us": 70.60, "hnsw_p99_us": 80.10, "brute_p50_us": 106.30, "brute_p95_us": 116.30, "speedup": 1.68, "recall_at_1_pct": 100.00},
+    {"entries": 5000, "insert_total_ms": 889.10, "hnsw_p50_us": 80.30, "hnsw_p95_us": 93.10, "hnsw_p99_us": 101.30, "brute_p50_us": 270.80, "brute_p95_us": 287.50, "speedup": 3.37, "recall_at_1_pct": 100.00},
+    {"entries": 10000, "insert_total_ms": 2153.69, "hnsw_p50_us": 96.90, "hnsw_p95_us": 135.20, "hnsw_p99_us": 183.30, "brute_p50_us": 590.40, "brute_p95_us": 815.50, "speedup": 6.09, "recall_at_1_pct": 99.60}
+  ],
+  "guardrail": {
+    "iterations": 5000,
+    "p50_us": 76.60,
+    "p95_us": 103.90,
+    "throughput_scans_per_sec": 12420.87
+  }
+}

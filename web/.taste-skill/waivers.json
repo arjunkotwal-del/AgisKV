@@ -1,0 +1,7 @@
+[
+  {
+    "check": "shader-lint",
+    "target": "\"common\"",
+    "reason": "Upstream three.js WebGLRenderer internal #include <common> shader chunk false positive."
+  }
+]
